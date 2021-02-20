@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>2b23533a-8b84-466a-a889-b4f899d4f58e</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DailyRouine.Application\DailyRouine.Application.csproj" />
+    <ProjectReference Include="..\DailyRoutine.Core\DailyRoutine.Core.csproj" />
+  </ItemGroup>
+
+</Project>
