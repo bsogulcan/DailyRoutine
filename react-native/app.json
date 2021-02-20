@@ -1,0 +1,12 @@
+{
+  "name": "DailyRoutine",
+  "displayName": "DailyRoutine",
+  "expo": {
+    "name": "DailyRoutine",
+    "slug": "DailyRoutine",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
